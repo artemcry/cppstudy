@@ -1,0 +1,194 @@
+.new-header {
+    display: none;
+}
+.logo {
+    margin-top: 30px;
+    align-content: center;
+    width: 50%;
+    margin: auto;
+    text-align:center; 
+}
+.logo a {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 48px;
+    letter-spacing: -2.2px;
+    word-spacing: 0.6px;
+    color: #80E468;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.header-panel {
+    margin-top:20px;
+    margin-right: 40px;
+    float:right;
+}
+
+.header-panel input, .maker-done{
+    background: rgb(224, 243, 211);
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: rgb(45, 109, 28);
+    margin-left: 2px;
+    color:rgb(9, 56, 22);
+}
+.header-panel input:hover{
+    background: #c4ffa0;
+}
+
+.header {
+    width: 80%;
+    margin-left: 160px;
+    margin-top: 20px;    
+}
+
+.lesson-text, .comments-text {
+    font-family: "Arial Black", sans-serif;
+    font-size: 30px;
+    color: rgb(21, 73, 19);
+}
+.lesson-desc {
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+.top-list {
+    float: right;
+    margin-right: -50px;
+}
+.top-text {
+    font-family: "Arial Black", sans-serif;
+    font-size: 18px;
+    color: rgb(21, 73, 19);
+    margin-bottom: 8px;
+}
+.top-name {
+    text-decoration: none;
+    color: rgb(39, 46, 41);
+    font: bold;
+    font-size: 15px;
+}
+.lesson-list {
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+.lesson-list-header, .liked-links-text {
+    font-size: 27   px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    color:rgb(21, 73, 19);
+}
+.lesson-list-name, .liked-links  {
+    text-decoration: none   ;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    word-spacing: 2.2px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.lesson-list-name:hover {
+    color: rgb(57, 163, 27);
+}
+.login, .sign-up {
+    margin-top: 50px;
+    align-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.login input, .sign-up input {
+    min-width: 200px;
+    box-sizing: border-box;
+    width: 30%;
+    margin-bottom: 4px;
+}
+
+.liked-links-text {
+    font-size: 32px;
+}
+.liked {
+    margin-left: 160px;
+}
+.maker {
+    width: 80%;    
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    text-align:center;
+}
+.maker-new-line, .maker-headers {
+    margin-left: 15px;
+    float: left;
+    margin-bottom: 3px;
+    
+}
+.maker-name, .maker-new-button{
+    float: left;
+    margin-bottom: 3px;
+}
+.maker-new-button {
+    margin-left: 5px;
+}
+
+select {
+    padding: .14em;
+}
+.editor-area {
+    width: 1200px;
+    height: 500px;
+}
+
+.maker-done {
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.views-img {
+    width: 24px;
+    margin-bottom: 3px;
+}
+.lesson {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comments {
+    margin-left: 50px;
+}
+.comments-text {
+    margin-left: -50px;
+}
+
+.like-button {
+   
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lesson-edit-button {
+    display: inline; 
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family: arial, sans-serif;
+    color: rgb(38, 65, 57);
+    text-decoration: underline;
+    cursor: pointer;
+}
